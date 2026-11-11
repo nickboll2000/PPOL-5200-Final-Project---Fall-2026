@@ -1,0 +1,26 @@
+column,wb_code,source,description,rationale,pct_nonmissing,latest_year
+gdp_pc_ppp,NY.GDP.PCAP.PP.KD,WDI,"GDP per capita, PPP (constant 2021 international $)",Main income control; also used to segment rich vs poor,90.4,2025
+gdp_pc_usd,NY.GDP.PCAP.KD,WDI,GDP per capita (constant 2015 US$),Backup income measure with wider coverage than PPP,94.7,2025
+gdp_growth,NY.GDP.MKTP.KD.ZG,WDI,GDP growth (annual %),Economic momentum / shocks (e.g. 2020),94.9,2025
+agri_employment_share,SL.AGR.EMPL.ZS,WDI,Employment in agriculture (% of total employment) (modeled ILO estimate),Economic structure; child labor demand in farming,85.9,2025
+remittances_gdp,BX.TRF.PWKR.DT.GD.ZS,WDI,"Personal remittances, received (% of GDP)","Household income from abroad, funds schooling",78.4,2025
+electricity_access,EG.ELC.ACCS.ZS,WDI,Access to electricity (% of population),Key confounder: needed for internet and schooling,94.8,2024
+electricity_access_rural,EG.ELC.ACCS.RU.ZS,WDI,"Access to electricity, rural (% of rural population)",Rural infrastructure gap,89.8,2024
+population,SP.POP.TOTL,WDI,"Population, total",Size; weights for regional averages,100.0,2025
+pop_0_14_share,SP.POP.0014.TO.ZS,WDI,Population ages 0-14 (% of total population),How young the country is (school-age pressure),100.0,2025
+pop_growth,SP.POP.GROW,WDI,Population growth (annual %),Pressure on school capacity,100.0,2025
+urban_share,SP.URB.TOTL.IN.ZS,WDI,Urban population (% of total population),Cities get internet and schools first,100.0,2025
+pop_density,EN.POP.DNST,WDI,Population density (people per sq. km of land area),Cost of rolling out networks and schools,94.4,2024
+fertility_rate,SP.DYN.TFRT.IN,WDI,"Fertility rate, total (births per woman)",Demographic transition stage,96.2,2024
+adolescent_fertility,SP.ADO.TFRT,WDI,"Adolescent fertility rate (births per 1,000 women ages 15-19)",Teen births drive girls' dropout,96.2,2024
+under5_mortality,SH.DYN.MORT,WDI,"Mortality rate, under-5 (per 1,000 live births)",Broad human-development / health proxy,86.8,2024
+life_expectancy,SP.DYN.LE00.IN,WDI,"Life expectancy at birth, total (years)",Broad human-development proxy,96.2,2024
+edu_spend_gdp,SE.XPD.TOTL.GD.ZS,WDI,"Government expenditure on education, total (% of GDP)",Public investment in education (% GDP),59.7,2025
+edu_spend_govt,SE.XPD.TOTL.GB.ZS,WDI,"Government expenditure on education, total (% of government expenditure)",Education priority in the budget (% of spending),59.6,2025
+compulsory_edu_years,SE.COM.DURS,WDI,"Compulsory education, duration (years)",Legal schooling requirement,86.3,2025
+youth_unemployment,SL.UEM.1524.ZS,WDI,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",Low job prospects lower the cost of staying in school,85.9,2025
+female_lfp,SL.TLF.CACT.FE.ZS,WDI,"Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)",Female labor force participation (also useful for Q2),85.9,2025
+wgi_gov_effectiveness,GOV_WGI_GE.EST,WGI,Government Effectiveness - Governance estimate (approx. -2.5 to +2.5),State capacity to deliver schools and networks,88.8,2025
+wgi_political_stability,GOV_WGI_PV.EST,WGI,Political Stability - Governance estimate (approx. -2.5 to +2.5),Conflict / instability proxy,90.2,2025
+wgi_rule_of_law,GOV_WGI_RL.EST,WGI,Rule of Law - Governance estimate (approx. -2.5 to +2.5),Institutional quality,90.6,2025
+wgi_control_corruption,GOV_WGI_CC.EST,WGI,Control of Corruption - Governance estimate (approx. -2.5 to +2.5),Institutional quality,89.3,2025
