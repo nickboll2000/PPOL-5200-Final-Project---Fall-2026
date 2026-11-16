@@ -1,0 +1,42 @@
+indicator_code,variable,countries,country_years,first_year,last_year,description
+CR.1,compl_primary,123,994,2000,2024,"Completion rate, primary education, both sexes (%)"
+CR.2,compl_lowersec,123,1012,2000,2024,"Completion rate, lower secondary education, both sexes (%)"
+CR.3,compl_uppersec,125,993,2000,2024,"Completion rate, upper secondary education, both sexes (%)"
+CR.MOD.1,compl_primary_mod,117,2925,2000,2024,"Completion rate, primary education, both sexes (modelled data) (%) "
+CR.MOD.2,compl_lowersec_mod,114,2850,2000,2024,"Completion rate, lower secondary education, both sexes (modelled data) (%) "
+CR.MOD.3,compl_uppersec_mod,114,2850,2000,2024,"Completion rate, upper secondary education, both sexes (modelled data) (%) "
+ROFST.1.CP,oos_rate_primary,123,2046,2000,2024,"Out-of-school rate for children of primary school age, both sexes (%)"
+ROFST.2.CP,oos_rate_lowersec,120,1594,2000,2024,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)"
+ROFST.3.CP,oos_rate_uppersec,121,1605,2000,2024,"Out-of-school rate for youth of upper secondary school age, both sexes (%)"
+NERT.1.CP,net_enrol_primary,124,2118,2000,2024,"Total net enrolment rate, primary, both sexes (%)"
+NERT.2.CP,net_enrol_lowersec,120,1610,2000,2024,"Total net enrolment rate, lower secondary, both sexes (%)"
+NERT.3.CP,net_enrol_uppersec,121,1613,2000,2024,"Total net enrolment rate, upper secondary, both sexes (%)"
+READ.PRIMARY,min_prof_read_primary,75,148,2001,2024,"Proportion of students at the end of primary education achieving at least a minimum proficiency level in reading, both sexes (%)"
+MATH.PRIMARY,min_prof_math_primary,82,176,2003,2024,"Proportion of students at the end of primary education achieving at least a minimum proficiency level in mathematics, both sexes (%)"
+READ.LOWERSEC,min_prof_read_lowersec,43,143,2000,2022,"Proportion of students at the end of lower secondary education achieving at least a minimum proficiency level in reading, both sexes (%)"
+MATH.LOWERSEC,min_prof_math_lowersec,49,167,2000,2023,"Proportion of students at the end of lower secondary education achieving at least a minimum proficiency level in mathematics, both sexes (%)"
+SCHBSP.1.WINTERN,school_internet_primary,95,516,2007,2024,Proportion of primary schools with access to Internet for pedagogical purposes (%)
+SCHBSP.2.WINTERN,school_internet_lowersec,93,488,2007,2024,Proportion of lower secondary schools with access to Internet for pedagogical purposes (%)
+SCHBSP.3.WINTERN,school_internet_uppersec,95,513,2009,2024,Proportion of upper secondary schools with access to Internet for pedagogical purposes (%)
+SCHBSP.2.WCOMPUT,school_computers_lowersec,98,536,2009,2024,Proportion of lower secondary schools with access to computers for pedagogical purposes (%)
+SCHBSP.2.WELEC,school_electricity_lowersec,107,634,2009,2024,Proportion of lower secondary schools with access to electricity (%)
+XGDP.FSGOV,edu_spend_pct_gdp,124,2135,2000,2024,Government expenditure on education as a percentage of GDP (%)
+TRTP.2,qualified_teachers_lowersec,96,720,2000,2024,"Percentage of teachers in lower secondary education with national minimum required professional qualification, both sexes (%)"
+CR.2.Q1,compl_lowersec_poorest,114,608,2000,2024,"Completion rate, lower secondary education, poorest quintile, both sexes (%)"
+CR.2.Q5,compl_lowersec_richest,114,612,2000,2024,"Completion rate, lower secondary education, richest quintile, both sexes (%)"
+CR.2.F,compl_lowersec_f,123,1026,2000,2024,"Completion rate, lower secondary education, female (%)"
+CR.2.M,compl_lowersec_m,123,1002,2000,2024,"Completion rate, lower secondary education, male (%)"
+CR.3.F,compl_uppersec_f,125,1002,2000,2024,"Completion rate, upper secondary education, female (%)"
+CR.3.M,compl_uppersec_m,125,972,2000,2024,"Completion rate, upper secondary education, male (%)"
+CR.MOD.3.F,compl_uppersec_mod_f,114,2850,2000,2024,"Completion rate, upper secondary education, female (modelled data) (%) "
+CR.MOD.3.M,compl_uppersec_mod_m,114,2850,2000,2024,"Completion rate, upper secondary education, male (modelled data) (%) "
+CR.3.GPIA,compl_uppersec_gpia,125,1028,2000,2024,"Completion rate, upper secondary education, adjusted gender parity index (GPIA)"
+ROFST.3.F.CP,oos_rate_uppersec_f,121,1559,2000,2024,"Out-of-school rate for youth of upper secondary school age, female (%)"
+ROFST.3.M.CP,oos_rate_uppersec_m,121,1559,2000,2024,"Out-of-school rate for youth of upper secondary school age, male (%)"
+GER.5T8.F,tertiary_enrol_f,123,1932,2000,2024,"Gross enrolment ratio for tertiary education, female (%)"
+GER.5T8.M,tertiary_enrol_m,123,1932,2000,2024,"Gross enrolment ratio for tertiary education, male (%)"
+LR.AG15T24.F,youth_literacy_f,125,983,2000,2024,"Youth literacy rate, population 15-24 years, female (%)"
+LR.AG15T24.M,youth_literacy_m,125,917,2000,2024,"Youth literacy rate, population 15-24 years, male (%)"
+EA.3T8.AG25T99.F,attain_uppersec_25plus_f,124,1014,2000,2024,"Educational attainment rate, completed upper secondary education or higher, population 25+ years, female (%)"
+EA.3T8.AG25T99.M,attain_uppersec_25plus_m,125,1001,2000,2024,"Educational attainment rate, completed upper secondary education or higher, population 25+ years, male (%)"
+LR.AG15T99.F,adult_literacy_f,124,773,2000,2024,"Adult literacy rate, population 15+ years, female (%)"
