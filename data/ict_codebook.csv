@@ -1,0 +1,12 @@
+variable_name,itu_code,indicator_name,unit,earliest_year,latest_year,pct_nonmissing
+country_code,,Country/economy code from ITU,Text,,,100.0
+country,,Country/economy name,Text,,,100.0
+year,,Year of the observation,Year,,,100.0
+computer_users_pct,HHU422-%_POP--,HH05 - Individuals who used a computer (from any location) - %_POP,% of individuals,2000,2025,15.25
+fixed_telephone_subscriptions,i112,Fixed-telephone subscriptions,Value,2000,2025,91.09
+households_computer_pct,HHA422-%_HH--,HH04 - Households with a computer - %_HH,% of households,2000,2025,24.32
+households_internet_estimated_pct,xHH6_IDI,Estimated proportion of households with Internet access at home,% of households,2000,2025,68.78
+internet_users_pct,i99H,Internet users (%),% of individuals,2000,2026,90.44
+mobile_cellular_per100,i911,Mobile-cellular subscriptions per 100 inhabitants,per 100 people,2000,2026,93.26
+telecom_investment_pct_gdp,i93,Telecommunication investment as a % of GDP,% Gross Domestic Product (GDP),2000,2013,26.48
+telecom_investment_pct_revenue,i96,Telecom investment as a % of revenues,As % of revenues,2000,2025,49.92
