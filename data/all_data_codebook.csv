@@ -1,0 +1,83 @@
+column,dataset,source_code,description,pct_nonmissing,pct_nonmissing_developing,first_year,last_year
+iso3,World Bank,,ISO 3166-1 alpha-3 country code (merge key),100.0,100.0,2000,2025
+country,World Bank,,Country name (World Bank spelling),100.0,100.0,2000,2025
+region,World Bank,,World Bank region (current). Afghanistan and Pakistan are NOT in South Asia here; use south_asia,100.0,100.0,2000,2025
+income_group,World Bank,,"World Bank income group (today's classification, applied to every year)",100.0,100.0,2000,2025
+lending_type,World Bank,,World Bank lending category (IDA / IBRD / Blend),100.0,100.0,2000,2025
+south_asia,Project,,True for the traditional 8 South Asian countries (AFG BGD BTN IND LKA MDV NPL PAK),100.0,100.0,2000,2025
+developing,Project,,"True if income_group is Low, Lower middle or Upper middle income",100.0,100.0,2000,2025
+year,,,Year,100.0,100.0,2000,2025
+gdp_pc_ppp,World Bank WDI,NY.GDP.PCAP.PP.KD,"GDP per capita, PPP (constant 2021 international $)",90.4,94.7,2000,2025
+gdp_pc_usd,World Bank WDI,NY.GDP.PCAP.KD,GDP per capita (constant 2015 US$),94.7,97.3,2000,2025
+gdp_growth,World Bank WDI,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),94.9,97.2,2000,2025
+agri_employment_share,World Bank WDI,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),85.9,94.2,2000,2025
+remittances_gdp,World Bank WDI,BX.TRF.PWKR.DT.GD.ZS,"Personal remittances, received (% of GDP)",78.4,84.2,2000,2025
+electricity_access,World Bank WDI,EG.ELC.ACCS.ZS,Access to electricity (% of population),94.8,94.7,2000,2024
+electricity_access_rural,World Bank WDI,EG.ELC.ACCS.RU.ZS,"Access to electricity, rural (% of rural population)",89.8,88.0,2000,2024
+population,World Bank WDI,SP.POP.TOTL,"Population, total",100.0,100.0,2000,2025
+pop_0_14_share,World Bank WDI,SP.POP.0014.TO.ZS,Population ages 0-14 (% of total population),100.0,100.0,2000,2025
+pop_growth,World Bank WDI,SP.POP.GROW,Population growth (annual %),100.0,100.0,2000,2025
+urban_share,World Bank WDI,SP.URB.TOTL.IN.ZS,Urban population (% of total population),100.0,100.0,2000,2025
+pop_density,World Bank WDI,EN.POP.DNST,Population density (people per sq. km of land area),94.4,94.3,2000,2024
+fertility_rate,World Bank WDI,SP.DYN.TFRT.IN,"Fertility rate, total (births per woman)",96.2,96.2,2000,2024
+adolescent_fertility,World Bank WDI,SP.ADO.TFRT,"Adolescent fertility rate (births per 1,000 women ages 15-19)",96.2,96.2,2000,2024
+under5_mortality,World Bank WDI,SH.DYN.MORT,"Mortality rate, under-5 (per 1,000 live births)",86.8,96.2,2000,2024
+life_expectancy,World Bank WDI,SP.DYN.LE00.IN,"Life expectancy at birth, total (years)",96.2,96.2,2000,2024
+edu_spend_gdp,World Bank WDI,SE.XPD.TOTL.GD.ZS,"Government expenditure on education, total (% of GDP)",59.7,61.3,2000,2025
+edu_spend_govt,World Bank WDI,SE.XPD.TOTL.GB.ZS,"Government expenditure on education, total (% of government expenditure)",59.6,62.1,2000,2025
+compulsory_edu_years,World Bank WDI,SE.COM.DURS,"Compulsory education, duration (years)",86.3,86.8,2000,2025
+youth_unemployment,World Bank WDI,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",85.9,94.2,2000,2025
+female_lfp,World Bank WDI,SL.TLF.CACT.FE.ZS,"Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)",85.9,94.2,2000,2025
+wgi_gov_effectiveness,World Bank WGI,GOV_WGI_GE.EST,Government Effectiveness - Governance estimate (approx. -2.5 to +2.5),88.8,94.7,2000,2025
+wgi_political_stability,World Bank WGI,GOV_WGI_PV.EST,Political Stability - Governance estimate (approx. -2.5 to +2.5),90.2,95.5,2000,2025
+wgi_rule_of_law,World Bank WGI,GOV_WGI_RL.EST,Rule of Law - Governance estimate (approx. -2.5 to +2.5),90.6,95.9,2000,2025
+wgi_control_corruption,World Bank WGI,GOV_WGI_CC.EST,Control of Corruption - Governance estimate (approx. -2.5 to +2.5),89.3,95.2,2000,2025
+households_computer_pct,ITU,HHA422-%_HH--,HH04 - Households with a computer - %_HH [% of households],25.7,20.1,2000,2025
+computer_users_pct,ITU,HHU422-%_POP--,HH05 - Individuals who used a computer (from any location) - %_POP [% of individuals],16.3,9.5,2000,2025
+fixed_telephone_subscriptions,ITU,i112,Fixed-telephone subscriptions [Value],92.0,93.6,2000,2025
+mobile_cellular_per100,ITU,i911,Mobile-cellular subscriptions per 100 inhabitants [per 100 people],91.9,95.2,2000,2025
+telecom_investment_pct_gdp,ITU,i93,Telecommunication investment as a % of GDP [% Gross Domestic Product (GDP)],28.1,27.7,2000,2013
+telecom_investment_pct_revenue,ITU,i96,Telecom investment as a % of revenues [As % of revenues],52.5,50.8,2000,2025
+internet_users_pct,ITU,i99H,Internet users (%) [% of individuals],87.4,91.1,2000,2025
+households_internet_estimated_pct,ITU,xHH6_IDI,Estimated proportion of households with Internet access at home [% of households],72.5,73.8,2000,2025
+compl_primary,UNESCO UIS,CR.1,"Completion rate, primary education, both sexes (%)",17.6,29.2,2000,2024
+compl_lowersec,UNESCO UIS,CR.2,"Completion rate, lower secondary education, both sexes (%)",17.9,29.7,2000,2024
+compl_uppersec,UNESCO UIS,CR.3,"Completion rate, upper secondary education, both sexes (%)",17.6,29.2,2000,2024
+compl_primary_mod,UNESCO UIS,CR.MOD.1,"Completion rate, primary education, both sexes (modelled data) (%)",51.8,85.9,2000,2024
+compl_lowersec_mod,UNESCO UIS,CR.MOD.2,"Completion rate, lower secondary education, both sexes (modelled data) (%)",50.5,83.7,2000,2024
+compl_uppersec_mod,UNESCO UIS,CR.MOD.3,"Completion rate, upper secondary education, both sexes (modelled data) (%)",50.5,83.7,2000,2024
+oos_rate_primary,UNESCO UIS,ROFST.1.CP,"Out-of-school rate for children of primary school age, both sexes (%)",36.3,60.1,2000,2024
+oos_rate_lowersec,UNESCO UIS,ROFST.2.CP,"Out-of-school rate for adolescents of lower secondary school age, both sexes (%)",28.3,46.8,2000,2024
+oos_rate_uppersec,UNESCO UIS,ROFST.3.CP,"Out-of-school rate for youth of upper secondary school age, both sexes (%)",28.4,47.1,2000,2024
+net_enrol_primary,UNESCO UIS,NERT.1.CP,"Total net enrolment rate, primary, both sexes (%)",37.5,62.2,2000,2024
+net_enrol_lowersec,UNESCO UIS,NERT.2.CP,"Total net enrolment rate, lower secondary, both sexes (%)",28.5,47.3,2000,2024
+net_enrol_uppersec,UNESCO UIS,NERT.3.CP,"Total net enrolment rate, upper secondary, both sexes (%)",28.6,47.4,2000,2024
+min_prof_read_primary,UNESCO UIS,READ.PRIMARY,"Proportion of students at the end of primary education achieving at least a minimum proficiency level in reading, both sexes (%)",2.6,4.3,2001,2024
+min_prof_math_primary,UNESCO UIS,MATH.PRIMARY,"Proportion of students at the end of primary education achieving at least a minimum proficiency level in mathematics, both sexes (%)",3.1,5.2,2003,2024
+min_prof_read_lowersec,UNESCO UIS,READ.LOWERSEC,"Proportion of students at the end of lower secondary education achieving at least a minimum proficiency level in reading, both sexes (%)",2.5,4.2,2000,2022
+min_prof_math_lowersec,UNESCO UIS,MATH.LOWERSEC,"Proportion of students at the end of lower secondary education achieving at least a minimum proficiency level in mathematics, both sexes (%)",3.0,4.9,2000,2023
+school_internet_primary,UNESCO UIS,SCHBSP.1.WINTERN,Proportion of primary schools with access to Internet for pedagogical purposes (%),9.1,15.1,2007,2024
+school_internet_lowersec,UNESCO UIS,SCHBSP.2.WINTERN,Proportion of lower secondary schools with access to Internet for pedagogical purposes (%),8.6,14.3,2007,2024
+school_internet_uppersec,UNESCO UIS,SCHBSP.3.WINTERN,Proportion of upper secondary schools with access to Internet for pedagogical purposes (%),9.1,15.1,2009,2024
+school_computers_lowersec,UNESCO UIS,SCHBSP.2.WCOMPUT,Proportion of lower secondary schools with access to computers for pedagogical purposes (%),9.5,15.7,2009,2024
+school_electricity_lowersec,UNESCO UIS,SCHBSP.2.WELEC,Proportion of lower secondary schools with access to electricity (%),11.2,18.6,2009,2024
+edu_spend_pct_gdp,UNESCO UIS,XGDP.FSGOV,Government expenditure on education as a percentage of GDP (%),37.8,62.7,2000,2024
+qualified_teachers_lowersec,UNESCO UIS,TRTP.2,"Percentage of teachers in lower secondary education with national minimum required professional qualification, both sexes (%)",12.8,21.1,2000,2024
+compl_lowersec_poorest,UNESCO UIS,CR.2.Q1,"Completion rate, lower secondary education, poorest quintile, both sexes (%)",10.8,17.9,2000,2024
+compl_lowersec_richest,UNESCO UIS,CR.2.Q5,"Completion rate, lower secondary education, richest quintile, both sexes (%)",10.8,18.0,2000,2024
+compl_lowersec_f,UNESCO UIS,CR.2.F,"Completion rate, lower secondary education, female (%)",18.2,30.1,2000,2024
+compl_lowersec_m,UNESCO UIS,CR.2.M,"Completion rate, lower secondary education, male (%)",17.8,29.4,2000,2024
+compl_uppersec_f,UNESCO UIS,CR.3.F,"Completion rate, upper secondary education, female (%)",17.8,29.4,2000,2024
+compl_uppersec_m,UNESCO UIS,CR.3.M,"Completion rate, upper secondary education, male (%)",17.2,28.5,2000,2024
+compl_uppersec_mod_f,UNESCO UIS,CR.MOD.3.F,"Completion rate, upper secondary education, female (modelled data) (%)",50.5,83.7,2000,2024
+compl_uppersec_mod_m,UNESCO UIS,CR.MOD.3.M,"Completion rate, upper secondary education, male (modelled data) (%)",50.5,83.7,2000,2024
+compl_uppersec_gpia,UNESCO UIS,CR.3.GPIA,"Completion rate, upper secondary education, adjusted gender parity index (GPIA)",18.2,30.2,2000,2024
+oos_rate_uppersec_f,UNESCO UIS,ROFST.3.F.CP,"Out-of-school rate for youth of upper secondary school age, female (%)",27.6,45.8,2000,2024
+oos_rate_uppersec_m,UNESCO UIS,ROFST.3.M.CP,"Out-of-school rate for youth of upper secondary school age, male (%)",27.6,45.8,2000,2024
+tertiary_enrol_f,UNESCO UIS,GER.5T8.F,"Gross enrolment ratio for tertiary education, female (%)",34.2,56.7,2000,2024
+tertiary_enrol_m,UNESCO UIS,GER.5T8.M,"Gross enrolment ratio for tertiary education, male (%)",34.2,56.7,2000,2024
+youth_literacy_f,UNESCO UIS,LR.AG15T24.F,"Youth literacy rate, population 15-24 years, female (%)",17.4,28.9,2000,2024
+youth_literacy_m,UNESCO UIS,LR.AG15T24.M,"Youth literacy rate, population 15-24 years, male (%)",16.3,26.9,2000,2024
+attain_uppersec_25plus_f,UNESCO UIS,EA.3T8.AG25T99.F,"Educational attainment rate, completed upper secondary education or higher, population 25+ years, female (%)",18.0,29.8,2000,2024
+attain_uppersec_25plus_m,UNESCO UIS,EA.3T8.AG25T99.M,"Educational attainment rate, completed upper secondary education or higher, population 25+ years, male (%)",17.7,29.4,2000,2024
+adult_literacy_f,UNESCO UIS,LR.AG15T99.F,"Adult literacy rate, population 15+ years, female (%)",13.7,22.7,2000,2024
